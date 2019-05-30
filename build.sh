@@ -2,14 +2,14 @@ OLDDIR=$PWD
 OUTDIR=$PWD/release
 echo $OUTDIR
 mkdir -p $OUTDIR
-cd libpcap
+cd code/libpcap
 ./configure --prefix=$OUTDIR
 make clean
 make 
 make install
 
 cd $OLDDIR
-cd tcpdump
+cd code/tcpdump
 ./configure --prefix=$OUTDIR
 make clean
 make

@@ -5,7 +5,7 @@
 # libdir may be defined in terms of prefix and exec_prefix, so the
 # latter must be defined as well.
 #
-prefix="/home/haowei/share/tcpdump_src/release"
+prefix="/home/haowei/share/tcpdump/release"
 exec_prefix="${prefix}"
 includedir="${prefix}/include"
 libdir="${exec_prefix}/lib"
