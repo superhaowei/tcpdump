@@ -1,5 +1,5 @@
 
-
+--------------------------------------------------------
 step1:
 
 $git clone https://github.com/superhaowei/tcpdump.git
@@ -7,6 +7,14 @@ $git clone https://github.com/superhaowei/tcpdump.git
 step2:
 
 $./build.sh
+--------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
